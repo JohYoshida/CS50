@@ -5,7 +5,7 @@
 int main(void){
   // Prompt user for shower length in minutes (positive int)
   printf("How many minutes do you shower for? ");
-  int minutes = GetInt();
+  int minutes = get_int();
 
   // convert minutes to bottles of water
   int bottles = m * 12;
