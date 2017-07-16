@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cs50.h>
 
 // Print a pyramid to a user-defined height (up to 23)
 int main(void){
@@ -8,7 +7,7 @@ int main(void){
     do
     {
         printf("Height: ");
-        h = get_int();
+        scanf("%d", &h);
     }
     while(h < 0 ||  h > 23);
     //for every row...
